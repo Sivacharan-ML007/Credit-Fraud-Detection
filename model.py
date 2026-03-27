@@ -42,6 +42,7 @@ model = tf.keras.Sequential([
 
 
 # ===================== TRAIN =====================
+model.summary()
 model.compile(optimizer='adam', loss='mse')
 
 model.fit(
