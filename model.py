@@ -47,7 +47,7 @@ model.compile(optimizer='adam', loss='mse')
 
 model.fit(
     x_train, x_train,
-    epochs=15,
+    epochs=30,
     batch_size=32,
     validation_data=(x_test,x_test),
     shuffle=True
