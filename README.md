@@ -14,7 +14,7 @@ The idea:  Train the model only on normal transactions Let it learn how “norma
 
 ## 🚀 How to Run
 ```bash
-git clone https://github.com/sivacharan-ML007/Credit-Fraud-Detection(autoencoders).git
+git clone https://github.com/Sivacharan-ML007/Credit-Fraud-Detection.git
 cd credit-card-fraud-autoencoder
 
 pip install -r requirements.txt
