@@ -1,0 +1,8 @@
+## Dataset Note
+
+This repository includes only fraud samples due to dataset size/privacy.
+
+- The model is designed to train on normal transactions.
+- If normal data is unavailable, synthetic normal data is generated automatically.
+
+For best results, use a full dataset with both normal and fraud samples.
