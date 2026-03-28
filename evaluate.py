@@ -4,7 +4,7 @@ from sklearn.metrics import precision_score, recall_score, roc_auc_score
 from sklearn.model_selection import train_test_split
 from utils import load_data, scale_data, reconstruction_error
 
-DATA_PATH = "data/creditcard.csv"
+DATA_PATH = "data/sample.csv"  #change dataset name for custom use
 MODEL_PATH = "model/autoencoder.h5"
 MODE = "both"   # "fraud" or "both"
 
